@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+    width: 1024px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+    color: #005677;
+    background-color: #be1e1e;
+}
+
+h2 {
+    color: #005677;
+    background-color: #be1e1e   ;
+}
+
+footer {
+    background-color: #005677    ;
+    text-align: center;
+    color: white;
+}
+
+ol {
+    list-style-type: none;
+}

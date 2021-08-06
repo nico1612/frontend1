@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h3 {
+    background-color: #1CD1B0;
+    font-size: 1rem;
+    padding-left: 15px;
+    font-weight: lighter;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
+h1 {
+    background-color: #00669F;
+    height: 80px;
+    color: white;
+    font-size: 3rem;
+} 
+
+nav {
+    background-color: #001D2D;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    padding: 10px;
+}
+
+.bloques {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.cajas {
+    background-color: #F3F3F3;
+    width: 300px;
+    height: 520px;
+    border-radius: 14px;
+}
+
+.mas {
+    width: 10px;
+    height: 20px;
+    margin-top: 300px;
+}
+
+h2 {
+    margin: 20px;
+    text-align: center;
+}
+
+p {
+    text-align: left;
+    padding: 20px 20px 0px 20px;
+}
+
+.fotocentro {
+    margin-top: -80px;
+    margin-left: 90px;
+}
+
+footer {
+    background-color: #00669F;
+    height: 50px;
+}
+
+.front {
+    text-align: center;
+    font-weight: lighter;
+    color: white;
+}
+
+.formulario {
+    background-color: #00669F;
+    border-radius: 2rem;
+    width: 50rem;
+    height: 700px;
+    margin: 4rem;
+    color: white;
+    padding: 2rem;
+}
+
+h4 {
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.agrega {
+    text-align: center;
+    font-size: 1rem;
+}
+
+.bloque {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cajauno {
+    display: flex;
+    flex-direction: column;
+}
+
+.caja2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.rad, textarea {
+    border-radius: 1rem;
+    width: 13rem;
+    padding: 1rem;
+}
+
+button {
+    background-color: #1CD1B0;
+    color: #000000;
+    border-radius: 1rem;
+    width: 20rem;
+    height: 50px;
+    font-size: 2rem;
+    font-weight: bold;
+}
